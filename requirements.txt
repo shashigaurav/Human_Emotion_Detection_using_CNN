@@ -1,7 +1,7 @@
-flask==3.0.3
-gunicorn==23.0.0
+tensorflow==2.16.1        # works with Python 3.10 / 3.11
 opencv-python-headless
 numpy
-keras==3.4.1
-tensorflow==2.16.1
+flask
+gunicorn
+
 
