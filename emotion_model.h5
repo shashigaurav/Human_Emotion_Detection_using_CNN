@@ -1,0 +1,8 @@
+import gdown
+import os
+
+if not os.path.exists("model/emotion_model.h5"):
+    url = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+    gdown.download(url, "model/emotion_model.h5", quiet=False)
+
+emotion_model.load_weights("model/emotion_model.h5")
